@@ -21,7 +21,7 @@ require 'pry'
 # end
 
 def reverse_each_word(sentence)
-  result = ""
+  result = []
 sentence.reversed_each{ |v| p v}
 end
 binding.pry
