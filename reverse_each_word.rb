@@ -19,10 +19,11 @@ require 'pry'
 # end
 # reversed_sentence.join(" ")
 # end
+
 def reverse_each_word(sentence)
   result = ""
 sentence.reversed_each{ |v| v += result}
-binding.pry 
+ 
 end 
 return result
 end
