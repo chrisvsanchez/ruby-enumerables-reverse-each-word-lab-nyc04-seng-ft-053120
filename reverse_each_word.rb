@@ -21,4 +21,5 @@ require 'pry'
 # end
 def reverse_each_word(sentence)
 p  sentence.map{|letter| letter.reverse_each_word}
+binding.pry
 end
