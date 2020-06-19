@@ -24,6 +24,5 @@ def reverse_each_word(sentence)
   result = ""
 sentence.reversed_each{ |v| p v}
 end 
-return result
 end
 binding.pry
