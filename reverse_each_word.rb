@@ -22,6 +22,7 @@ require 'pry'
 def reverse_each_word(sentence)
 reversed =  sentence.map{|letter| letter.reverse_each_word}
 binding.pry 
+reversed
 end
 
 end
