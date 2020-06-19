@@ -24,5 +24,3 @@ reversed =  sentence.map{|letter| letter.reverse}
 binding.pry 
 reversed
 end
-
-end
